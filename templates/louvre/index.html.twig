@@ -1,10 +1,89 @@
 {% extends 'base.html.twig' %}
 
-{% block body %}
-    <div class="container">
-        <header class="page-header">
-            <h1></h1>
-        </header>
 
+{% block body %}
+
+    <section id="banner">
+        <div class="inner">
+            <h2>Musée du Louvre</h2>
+            <p>Bienvenue sur la billetterie du musée du Louvre<br />
+                Réservez vos billets d'entrée en toute simplicité.<br />
+                </p>
+            <ul class="actions special">
+                <li><a href="#" class="button primary">Billetterie</a></li>
+            </ul>
+        </div>
+        <a href="#tarifs" class="more scrolly" style="font-weight:bold;">Voir les tarifs</a>
+    </section>
+
+<section id="tarifs">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" id="card1">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:black;">Tarif bébé</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Enfant moins de 4 ans</h6>
+                    <br/><br/>
+                        <p class="card-text">Gratuit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" id="card2">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:black;">Tarif enfant</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Enfant de 4 à 12 ans</h6>
+                        <br/><br/>
+                        <p class="card-text">8€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" id="card3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarif normal</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">à partir de 12 ans</h6>
+                        <br/><br/>
+                        <p class="card-text">16€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" id="card4">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:black;">Tarif senior</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">à partir de 60ans</h6>
+                        <br/><br/>
+                        <p class="card-text">12€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" id="card5">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:black;">Tarif réduit</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" style="font-size:0.5em;" >étudiant, employé du musée,
+                            d’un service du Ministère de la Culture, militaire…sur présentation d'un justificatif à l'entrée du musée</h6>
+                        <p class="card-text">10€</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
+</section>
+
+
+    {% block javascripts %}
+        <script src="{{ asset('bootstrap/js/jquery.min.js') }}" ></script>
+        <script src="{{ asset('bootstrap/js/jquery.scrollex.min.js') }}" ></script>
+        <script src="{{ asset('bootstrap/js/jquery.scrolly.min.js') }}" ></script>
+        <script src="{{ asset('bootstrap/js/browser.min.js') }}" ></script>
+        <script src="{{ asset('bootstrap/js/breakpoints.min.js') }}" ></script>
+        <script src="{{ asset('bootstrap/js/util.js') }}" ></script>
+        <script src="{{ asset('bootstrap/js/main.js') }}" ></script>
+        {{ parent() }}
+    {% endblock %}
+
 {% endblock %}
