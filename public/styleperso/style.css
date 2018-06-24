@@ -2,8 +2,13 @@
     background-color: #000000!important;
 }
 
-/* Banner */
+.titre
+{
+    padding-top: 15%;
+}
 
+
+/* Banner */
 #banner {
     background-image: url("../../../../images/louvre.jpg");
 }
@@ -29,8 +34,23 @@
     color : white;
 }
 
+#panier{
+    position:fixed;
+    margin: 10% 0 0 60%;
+}
 
+.list-group-item
+{
+    color:black;
+}
 
+.list-group-item.active
+{
+    border-color: white;
+    background-color: gray;
+    font-weight:bold;
+    text-transform: uppercase;
+}
 
 /*
 	ajout du thème Spectral

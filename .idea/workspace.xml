@@ -2,71 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68d4dfde-540a-461f-a009-b40d4b3e8408" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/breakpoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/browser.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/jquery.scrollex.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/jquery.scrolly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/sass/libs/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/sass/libs/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/sass/libs/_html-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/sass/libs/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/sass/libs/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/sass/libs/_vendor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/sass/noscript.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/css/images/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/css/images/bars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/css/images/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/css/noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/js/breakpoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/js/browser.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/js/jquery.scrollex.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/js/jquery.scrolly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/sass/libs/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/sass/libs/_html-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/sass/libs/_vendor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/assets/sass/noscript.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/images/pic01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/images/pic02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/images/pic03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/images/pic04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/images/pic05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/themespectral/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Louvre.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Louvre.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scroll/css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scroll/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scroll/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scroll/images/reveal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scroll/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scroll/js/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scroll/reveal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/louvre/command.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/louvre/formcommand.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/styleperso/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styleperso/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LouvreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LouvreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/louvre/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/louvre/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,20 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bootstrap/themespectral/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/louvre/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="187">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="71" />
               <folding>
                 <element signature="e#502#527#0#HTML" expanded="true" />
                 <element signature="e#784#804#0#HTML" expanded="true" />
@@ -121,18 +60,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap.css">
+      <file leaf-file-name="LouvreController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/LouvreController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="369" column="9" selection-start-line="369" selection-start-column="9" selection-end-line="369" selection-end-column="9" />
+            <state relative-caret-position="-12">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#34#81#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logo-nav.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bootstrap/css/logo-nav.css">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="command.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/louvre/command.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="e#98#121#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formcommand.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/louvre/formcommand.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1849">
+              <caret line="252" column="2" selection-start-line="252" selection-start-column="2" selection-end-line="252" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="noscript.css" pinned="false" current-in-tab="false">
@@ -143,8 +113,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/styleperso/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="e#46632#47136#2" expanded="true" />
                 <element signature="e#50654#51158#2" expanded="true" />
@@ -154,21 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="breakpoints.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bootstrap/js/breakpoints.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="_vars.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bootstrap/sass/libs/_vars.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="85">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -202,6 +162,7 @@
       <find>#banner h2</find>
       <find>.button.primary</find>
       <find>h6</find>
+      <find>button</find>
       <find>#banner p</find>
     </findStrings>
   </component>
@@ -209,7 +170,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Installations" />
       </map>
     </option>
   </component>
@@ -224,17 +185,20 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Controller/LouvreController.php" />
         <option value="$PROJECT_DIR$/public/styleperso/style.css.php" />
         <option value="$PROJECT_DIR$/public/bootstrap/themespectral/assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/public/bootstrap/themespectral/assets/css/main.css" />
         <option value="$PROJECT_DIR$/public/bootstrap/themespectral/index.html" />
         <option value="$PROJECT_DIR$/public/bootstrap/themespectral/assets/css/noscript.css" />
         <option value="$PROJECT_DIR$/public/bootstrap/css/main.css" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/public/styleperso/style.css" />
         <option value="$PROJECT_DIR$/templates/louvre/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/LouvreController.php" />
+        <option value="$PROJECT_DIR$/scroll/css/style.css" />
+        <option value="$PROJECT_DIR$/public/styleperso/style.css" />
+        <option value="$PROJECT_DIR$/templates/louvre/command.html.twig" />
+        <option value="$PROJECT_DIR$/templates/louvre/formcommand.html.twig" />
       </list>
     </option>
   </component>
@@ -342,59 +306,18 @@
               <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
               <item name="Louvre" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Louvre" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Louvre" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themespectral" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Louvre" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themespectral" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Louvre" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themespectral" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Louvre" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themespectral" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Louvre" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Louvre" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="styleperso" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Louvre" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scroll" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Louvre" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scroll" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Louvre" type="b2602c69:ProjectViewProjectNode" />
@@ -431,6 +354,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Louvre\scroll" />
       <recent name="C:\wamp\www\Louvre\public\bootstrap" />
       <recent name="C:\wamp\www\Louvre\public\bootstrap\js" />
       <recent name="C:\wamp\www\Louvre\public\bootstrap\css" />
@@ -460,7 +384,7 @@
       <option name="presentableId" value="Default" />
       <updated>1529613139209</updated>
       <workItem from="1529613140645" duration="16546000" />
-      <workItem from="1529702659833" duration="35175000" />
+      <workItem from="1529702659833" duration="44715000" />
     </task>
     <task id="LOCAL-00001" summary="installation des packages : twig, asset, server, doctrine, annotations, makerbundle, server. Création du controller, des vues et ajout fichiers css et js boostrap et style.css">
       <created>1529764264706</created>
@@ -469,11 +393,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529764264706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="design page accueil">
+      <created>1529858009961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529858009962</updated>
+    </task>
+    <task id="LOCAL-00003" summary="design page accueil">
+      <created>1529858138812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529858138812</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51721000" />
+    <option name="totallyTimeSpent" value="61261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,36 +456,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="installation des packages : twig, asset, server, doctrine, annotations, makerbundle, server. Création du controller, des vues et ajout fichiers css et js boostrap et style.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="installation des packages : twig, asset, server, doctrine, annotations, makerbundle, server. Création du controller, des vues et ajout fichiers css et js boostrap et style.css" />
+    <MESSAGE value="design page accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="design page accueil" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../bin/apache/apache2.4.33/conf/httpd.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2907" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/build/scss/app.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -623,16 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/LouvreController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#34#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/favicons/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -691,9 +593,6 @@
     <entry file="file://$PROJECT_DIR$/public/bootstrap/css/images/bars.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/sass/libs/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/themespectral/assets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-945">
@@ -728,30 +627,79 @@
     <entry file="file://$PROJECT_DIR$/public/bootstrap/css/logo-nav.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/noscript.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/js/breakpoints.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/noscript.css">
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/sass/libs/_vars.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="85">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scroll/css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="74" column="13" selection-start-line="70" selection-start-column="8" selection-end-line="74" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scroll/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scroll/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/louvre/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <element signature="e#502#527#0#HTML" expanded="true" />
+            <element signature="e#784#804#0#HTML" expanded="true" />
+            <element signature="e#1215#1235#0#HTML" expanded="true" />
+            <element signature="e#2064#2084#0#HTML" expanded="true" />
+            <element signature="e#2476#2496#0#HTML" expanded="true" />
+            <element signature="e#2589#2613#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/LouvreController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#34#81#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="369" column="9" selection-start-line="369" selection-start-column="9" selection-end-line="369" selection-end-column="9" />
+        <state relative-caret-position="-1849">
+          <caret line="252" column="2" selection-start-line="252" selection-start-column="2" selection-end-line="252" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styleperso/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#46632#47136#2" expanded="true" />
             <element signature="e#50654#51158#2" expanded="true" />
@@ -760,17 +708,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/louvre/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/louvre/command.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="e#502#527#0#HTML" expanded="true" />
-            <element signature="e#784#804#0#HTML" expanded="true" />
-            <element signature="e#1215#1235#0#HTML" expanded="true" />
-            <element signature="e#2064#2084#0#HTML" expanded="true" />
-            <element signature="e#2476#2496#0#HTML" expanded="true" />
-            <element signature="e#2589#2613#0#HTML" expanded="true" />
+            <element signature="e#98#121#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/louvre/formcommand.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div id="panier" style="width: 21.2%;">
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item active">Mon panier</li>
+                    <li class="list-group-item">Date de la visite :</li>
+                    <li class="list-group-item">Horaire :</li>
+                    <li class="list-group-item">Nombre de billets :</li>
+                    <a href="#" class="card-link"><button>Accéder au paiement</button></a>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+
+            {{ include("louvre/formcommand.html.twig") }}
+
+        </div>
+    </div>
+
+{% endblock %}

@@ -13,7 +13,15 @@ class LouvreController extends Controller
     public function index()
     {
         return $this->render('louvre/index.html.twig', [
-            'controller_name' => 'LouvreController',
+            //'controller_name' => 'LouvreController',
         ]);
     }
+
+	/**
+	 * @Route("/command", name="command")
+	 */
+	public function command()
+	{
+		return $this->render('louvre/command.html.twig');
+	}
 }
