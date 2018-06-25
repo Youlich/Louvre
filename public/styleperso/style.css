@@ -4,8 +4,13 @@
 
 .titre
 {
-    padding-top: 15%;
-}
+    margin-top: 10%;
+    padding:0.5em;
+    width: 80%;
+    border-width:10px;
+    border-style:double;
+    border-color: white;
+    }
 
 
 /* Banner */
@@ -36,7 +41,7 @@
 
 #panier{
     position:fixed;
-    margin: 10% 0 0 60%;
+    margin: 0 0 0 60%;
 }
 
 .list-group-item
