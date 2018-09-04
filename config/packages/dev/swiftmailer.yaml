@@ -2,8 +2,8 @@
 
 swiftmailer:
     transport:        gmail
-    username:         ju.tatibouet@gmail.com
-    password:         Youlich44
+    username:
+    password:
     host:             smtp.gmail.com
     port:             465
     encryption:       ssl
