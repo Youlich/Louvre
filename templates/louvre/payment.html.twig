@@ -26,7 +26,14 @@
         <br>
         {{ 'title.date'|trans }} {{ booking.dateVisit|date('d-m-Y') }}
         <br><br>
-        {{ 'title.typevisit'|trans }} {{ typeVisit.type }}<br><br>
+        {{ 'title.typevisit'|trans }}
+        {% if typeVisit.type == 'Journée' %}
+            {{ 'type.jour'|trans }}
+        {% elseif typeVisit.type == 'Demi-journée' %}
+            {{ 'type.djour'|trans }}
+        {% endif %}
+
+        <br><br>
         {{ 'title.listvisitors'|trans }}<br><br>
        <ul>{% for visitor in booking.visitors %}
 
