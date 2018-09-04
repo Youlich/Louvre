@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+        <body>
+
+            <trans-unit id="booking.blank.nbTicket">
+                <source>booking.blank.nbTicket</source>
+                <target>The selection of the number of tickets is mandatory.</target>
+            </trans-unit>
+            <trans-unit id="mail.invalid">
+                <source>mail.invalid</source>
+                <target>{{ value }} is not a valid address, please enter a valid email address.</target>
+            </trans-unit>
+            <trans-unit id="mail.not_blank">
+                <source>mail.not_blank</source>
+                <target>Your email address is required</target>
+            </trans-unit>
+            <trans-unit id="name.not_blank">
+                <source>name.not_blank</source>
+                <target>The visitor's name is required</target>
+            </trans-unit>
+            <trans-unit id="name.min">
+                <source>name.min</source>
+                <target>The name must be at least 2 characters long</target>
+            </trans-unit>
+            <trans-unit id="firstname.not_blank">
+                <source>firstname.not_blank</source>
+                <target>The visitor's first name is required</target>
+            </trans-unit>
+            <trans-unit id="firstname.min">
+                <source>firstname.min</source>
+                <target>First name must be at least 2 characters</target>
+            </trans-unit>
+            <trans-unit id="birthday.not_blank">
+                <source>birthday.not_blank</source>
+                <target>The date of birth of the visitor is obligatory</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

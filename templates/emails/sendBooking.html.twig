@@ -1,0 +1,37 @@
+
+<img src="{{ absolute_url(asset('/images/logo.png')) }}">
+<h3>{{ 'send.valid'|trans }} {{ booking.getTotalAmount() }} Euros.</h3>
+<div>
+{{ 'send.accueil'|trans }}
+    <br>
+</div>
+<br>
+{{ 'send.code'|trans }} {{ booking.bookingCode }}
+<br><br>
+{{ 'send.date'|trans }} {{ booking.getDateVisit()| date('d-m-Y')  }}
+<br><br>
+{{ 'send.visit'|trans }}
+{% if typeVisit.type == 'Journée' %}
+    {{ 'type.jour'|trans }}
+{% elseif typeVisit.type == 'Demi-journée' %}
+    {{ 'type.djour'|trans }}
+{% endif %}
+{% if typeVisit.type == 'Journée' %}
+    {{ 'heure.jour'|trans }}
+{% elseif typeVisit.type == 'Demi-journée' %}
+    {{ 'heure.djour'|trans }}
+{% endif %}
+<br><br>
+{{ 'send.visitors'|trans }}
+<br><br>
+<ul style="list-style: none;">{% for visitor in booking.visitors %}
+        <li>{{ 'name'|trans }} {{ visitor.name }}, {{ 'firstname'|trans }} {{ visitor.firstName }}, {{ 'old'|trans }} {{ visitor.getAge() }} {{ 'years'|trans }},{{ 'price'|trans }} {{ visitor.price }} Euros,
+            {{ 'reduct'|trans }} {% if visitor.getReduction() == 1 %} {{ 'yes'|trans }} {{ 'send.justif'|trans }} {% elseif visitor.getReduction() == '' %} {{ 'no'|trans }}. {% endif %}</li>
+    {% endfor %}
+</ul>
+<br>
+
+
+
+
+

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="formbooking.dateVisit">
+                <source>formbooking.dateVisit</source>
+                <target>Date de votre visite *</target>
+            </trans-unit>
+            <trans-unit id="formbooking.nbticket">
+                <source>formbooking.nbticket</source>
+                <target>Nombre de billet(s)</target>
+            </trans-unit>
+            <trans-unit id="formbooking.mail">
+                <source>formbooking.mail</source>
+                <target>Votre email : *</target>
+            </trans-unit>
+            <trans-unit id="formbooking.typevisit">
+                <source>formbooking.typevisit</source>
+                <target>Votre type de visite</target>
+            </trans-unit>
+            <trans-unit id="formbooking.placeholder.typevisit">
+                <source>formbooking.placeholder.typevisit</source>
+                <target>Choississez votre Type de visite ici</target>
+            </trans-unit>
+            <trans-unit id="typeVisit.type.day">
+                <source>typeVisit.type.day</source>
+                <target>Journée</target>
+            </trans-unit>
+            <trans-unit id="typeVisit.type.halfday">
+                <source>typeVisit.type.halfday</source>
+                <target>Demi-Journée</target>
+            </trans-unit>
+            <trans-unit id="formvisitor.name">
+                <source>formvisitor.name</source>
+                <target>Nom :</target>
+            </trans-unit>
+            <trans-unit id="formvisitor.firstname">
+                <source>formvisitor.firstname</source>
+                <target>Prénom :</target>
+            </trans-unit>
+            <trans-unit id="formvisitor.birthday">
+                <source>formvisitor.birthday</source>
+                <target>Date de naissance :</target>
+            </trans-unit>
+            <trans-unit id="formvisitor.country">
+                <source>formvisitor.country</source>
+                <target>Pays :</target>
+            </trans-unit>
+            <trans-unit id="formvisitor.reduct">
+                <source>formvisitor.reduct</source>
+                <target>Tarif réduit ? *</target>
+            </trans-unit>
+
+
+
+
+
+
+
+
+        </body>
+    </file>
+</xliff>

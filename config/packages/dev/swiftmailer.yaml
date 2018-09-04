@@ -1,0 +1,11 @@
+# See https://symfony.com/doc/current/email/dev_environment.html
+
+swiftmailer:
+    transport:        gmail
+    username:         ju.tatibouet@gmail.com
+    password:         Youlich44
+    host:             smtp.gmail.com
+    port:             465
+    encryption:       ssl
+    auth-mode:        login
+    spool: { type: 'memory' }

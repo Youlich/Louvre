@@ -1,10 +1,130 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div class="container">
-        <header class="page-header">
-            <h1></h1>
-        </header>
 
-    </div>
+<section id="banner">
+        <div class="inner">
+            <h2>{{'title.homepage'|trans }}</h2>
+            <p>{{'bienvenue1.homepage'|trans }}<br />
+                {{'bienvenue2.homepage'|trans }}<br />
+                </p>
+            <br/><br/><br/>
+            <ul class="actions special">
+                <li><a class="js-scrollTo" href="{{ path('booking', {'_locale': locale}) }}">{{'btn.tckt'|trans }}</a></li>
+                <li> <a href="#tarifs" class="js-scrollTo">{{'btn.price'|trans }}</a></li>
+                <li> <a href="#infos" class="js-scrollTo">{{'btn.pratique'|trans }}</a></li>
+            </ul>
+        </div>
+</section>
+
+<section id="tarifs">
+
+        <div class="inner">
+            <h2>{{'title.tarifs'|trans }}</h2>
+        </div> <br/><br/><br/>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" id="card1">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:black;">{{'tarif.baby'|trans }}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{'text.baby'|trans }}</h6>
+                            <br/><br/>
+                            <p class="card-text">{{ prices.baby|escape }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" id="card2">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:black;">{{'tarif.child'|trans }}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{'text.child'|trans }}</h6>
+                            <br/><br/>
+                            <p class="card-text">{{ prices.child|escape }}€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" id="card3">
+                        <div class="card-body">
+                            <h5 class="card-title">{{'tarif.normal'|trans }}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{'text.normal'|trans }}</h6>
+                            <br/><br/>
+                            <p class="card-text">{{ prices.normal|escape }}€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" id="card4">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:black;">{{'tarif.senior'|trans }}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{'text.senior'|trans }}</h6>
+                            <br/><br/>
+                            <p class="card-text">{{ prices.senior|escape }}€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" id="card5">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:black;">{{'tarif.reduit'|trans }}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted" style="font-size:0.5em;" >{{'text.reduit'|trans }}</h6>
+                            <p class="card-text">{{ prices.reduced|escape }}€</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<section id="infos">
+        <div class="inner">
+            <h2>Informations</h2>
+        </div>
+    <br/><br/><br/>
+        <div class="container">
+            <div class="row" >
+                <div class="col">
+                    <div class="card" id="card6">
+                        <div class="card-body6">
+                            <br/>
+                            <h5 class="card-title" style="color:black;">{{'title.horaires'|trans }}</h5>
+                                <ul>
+                                    <br/>
+                                <li>{{'horaire.lundi'|trans }}</li>
+                                <li>{{'horaire.mardi'|trans }}</li>
+                                <li>{{'horaire.mercredi'|trans }}</li>
+                                <li>{{'horaire.jeudi'|trans }}</li>
+                                <li>{{'horaire.vendredi'|trans }}</li>
+                                <li>{{'horaire.samedi'|trans }}</li>
+                                <li>{{'horaire.dimanche'|trans }}</li>
+                                <li>{{'horaire.info'|trans }}</li><br/></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" id="card6">
+                        <div class="card-body6">
+                            <br/>
+                            <h5 class="card-title" style="color:black;">Contact</h5>
+                            <ul>
+                                <br/>
+                                <li>Rue de Rivoli, 75001 Paris</li>
+                                <br/>
+                                <li>{{'contact.info1'|trans }} </li>
+                                <li>{{'contact.info2'|trans }}</li>
+                                <br/>
+                                <li>Tel : 01 40 20 50 50</li>
+                                <br/>
+                                <li><a href="visites-reservations@louvre.fr">visites-reservations@louvre.fr</a></li><br/><br/></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+    <a href="#" class="scrollup" style="display: block;"></a>
+
 {% endblock %}

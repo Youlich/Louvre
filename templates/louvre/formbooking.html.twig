@@ -1,0 +1,108 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<div class="container">
+
+    <h3 class="titrecde">{{ 'title.booking'|trans }}</h3>
+    <div>
+        {% for message in app.session.flashbag.get('message') %}
+            <div class="alert alert-danger" style="width: 80%;">{{ message }}</div>
+        {% endfor %}
+
+    </div>
+    {{ form_start(formbooking, {'attr':{'novalidate':'novalidate'}}, {'id': 'formbooking'}  ) }}
+
+
+    <div id="message">{{ 'error.booking.date'|trans }}</div>
+    <div class="containerform" id="containerform">
+    <div class="row">
+        <div class="col">
+            {{ form_label(formbooking.dateVisit) }}
+            {{ form_widget(formbooking.dateVisit, { 'attr': {'class': 'datepicker'}}) }}
+
+        <br/>
+            <div style="font-size: small">{{ 'booking.info1'|trans }}</div>
+            <br/>
+        </div>
+
+        <div class="col">
+            {{ form_label(formbooking.nbTicket) }}
+            {{ form_widget(formbooking.nbTicket, { 'id': 'nbBillet' }) }}
+            <br/>
+        </div>
+
+    </div>
+        <div class="row">
+        <div class="col">
+            {{ form_label(formbooking.email) }}
+            {{ form_widget(formbooking.email|escape, { 'id': 'email' }) }}
+
+            <br/>
+            <div style="font-size: small">{{ 'booking.info2'|trans }}</div>
+            <br/>
+        </div>
+        </div>
+    <div class="row">
+        <div class="col">
+            {{ form_label(formbooking.typeVisit) }}
+            {{ form_widget(formbooking.typeVisit, { 'id': 'typeVisite' }) }}
+            <br/>
+        </div>
+    </div>
+
+    <br>
+        <!--!message flash qui demande de remplir les formulaires visiteurs-->
+    <div class="message">{{ 'booking.flash'|trans }}</div>
+
+    <HR>
+        <div class="formvisiteur">
+            <h3 class="titre" >{{ 'title.visitor'|trans }}</h3>
+        </div>
+
+        {# Formulaire(s) Visiteur(s) #}
+
+        <ul id="visiteur-fields-list"
+            data-prototype="{{ form_widget(formbooking.visitors.vars.prototype)|e }}"
+            data-index="{{ formbooking.visitors|length }}"
+            data-widget-tags="{{ '<li></li> '|e }}">
+            {% for visitorField in formbooking.visitors %}
+                <li>
+                    {{ form_widget(visitorField|escape)}}
+                </li>
+            {% endfor %}
+
+        </ul>
+        <div class="message" style="font-size: small">{{ 'reduit.info'|trans }}</div>
+        {# input nécessaire pour que les Formulaire(s) Visiteur(s) s'affichent #}
+        <input type="hidden" id="the-list" data-list="#visiteur-fields-list">
+    </div>
+
+        <div id="panier">
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item active">{{ 'title.panier'|trans }}</li>
+                    <li class="list-group-item">{{ 'date.panier'|trans }} <div id ="dateVisitePanier"></div> </li>
+                    <li class="list-group-item">{{ 'typvisit.panier'|trans }}<div id ="typeVisitePanier"></div></li>
+                    <li class="list-group-item">{{ 'nb.panier'|trans }}<div id ="nbBilletPanier"></div></li>
+                    <button type="submit" id="payment" class="btn btn-danger">{{ 'btnpayment.booking'|trans }}</button>
+                </ul>
+            </div>
+        </div>
+
+
+{{ form_end(formbooking) }}
+
+</div>
+<a href="#" class="scrollup" style="display: block;"></a>
+
+<div id="dialogHour" title="{{ 'titlewidget.error'|trans }}">{{ 'error.booking.journey'|trans }}</div>
+<div id="dialogStock" title="{{ 'titlewidget.error'|trans }}">{{ 'error.booking.stock'|trans }}</div>
+
+{% endblock %}
+
+{% block javascripts %}
+{{ parent() }}
+    <script type="text/javascript" src="{{ asset('build/formbooking.js') }}"></script>
+
+{% endblock %}

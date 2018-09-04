@@ -1,4 +1,3 @@
-
 ###> symfony/framework-bundle ###
 /.env
 /public/bundles/
@@ -14,7 +13,8 @@
 .phpunit
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
-
+/.idea
+.idea/workspace.xml
 ###> symfony/webpack-encore-pack ###
 /node_modules/
 /public/build/

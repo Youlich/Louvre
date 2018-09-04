@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
@@ -7,10 +7,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{% block title %}Billetterie du musée du Louvre{% endblock %}</title>
+
+    <title>{% block title %}{{'title.homepage'|trans }}{% endblock %}</title>
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.css') }}">
-        <link rel="stylesheet" href="{{ asset ('styleperso/style.css') }}" >
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ asset('jqueryUI/1.12.1/jquery-ui.css') }}" />
+        <link rel="stylesheet" href="{{ asset('jqueryUI/1.12.1/jquery-ui.structure.css') }}" />
+        <link rel="stylesheet" href="{{ asset('jqueryUI/1.12.1/jquery-ui.theme.css') }}" />
+        <link rel="stylesheet" href="{{ asset('styleperso/style.css') }}" />
     {% endblock %}
 
 
@@ -18,22 +23,23 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">
-                <img class="logo" src="images/logo.png" alt="logo" />
-
+        <a class="navbar-brand" href="/">
+                <img class="logo" src="/images/logo.png" alt="logo" />
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        {% set route = app.request.attributes.get('_route'  ) %}
+        {% set params = app.request.attributes.get('_route_params')|merge({'_locale': 'fr'}) %}
+        <a class="btnlangue"  href="{{ path(route, params ) }}">{{"body.language.french"|trans}}</a>
+        {% set params = app.request.attributes.get('_route_params')|merge({'_locale': 'en'}) %}
+        <a class="btnlangue" id="btnenglish" href="{{ path(route, params) }}">{{"body.language.english"|trans}}</a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-lg-auto" style="padding-top: 2%">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil
+                    <a class="nav-link" href="{{ path('louvre', {'_locale': locale}) }}">{{ 'header.home'|trans }}
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Billetterie</a>
+                    <a class="nav-link" href="{{ path('booking', {'_locale': locale}) }}">{{ 'header.ticket'|trans }}</a>
                 </li>
             </ul>
         </div>
@@ -43,15 +49,31 @@
 {% block body %}
 {% endblock %}
 
-<footer>
-    <p></p>
+<footer class="footer">
+    <div align="center">
+        <div class="row">
+            <div class="contentFooter">
+                <br/>
+                {{'footer.mus'|trans }} - Copyright @ 2018 - Design by  DIGITALIZER
+                <br/><br/>
+                <div class="logos">
+                    <a href="https://www.facebook.com/museedulouvre/" title="Suivez-nous sur Facebook !"><img src="/images/facebook.png" /></a>
+                    <a href="https://twitter.com/museelouvre?lang=fr" title="Suivez-nous sur Twitter !"><img src="/images/twitter.png" /></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
 
 {% block javascripts %}
-    <script src="{{ asset('bootstrap/js/bootstrap.js') }}" ></script>
+
+    <script type="text/javascript" src="{{ asset('jqueryUI/1.12.1/external/jquery/jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('jqueryUI/1.12.1/jquery-ui.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('build/scrollup.js') }}"></script>
+
 {% endblock %}
-
-
 </body>
+
 </html>
