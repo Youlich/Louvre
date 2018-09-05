@@ -364,22 +364,6 @@
             </trans-unit>
 
 
-            <!--exception.html.twig-->
-            <trans-unit id="exception.error">
-                <source>exception.error</source>
-                <target>Oops la page que vous demandez n'existe pas !</target>
-            </trans-unit>
-            <trans-unit id="exception.accueil">
-                <source>exception.accueil</source>
-                <target>Retour à l'accueil</target>
-            </trans-unit>
-
-
-
-
-
-
-
         </body>
     </file>
 </xliff>

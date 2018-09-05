@@ -149,10 +149,6 @@ input[type="radio"]:focus + label:before {
     color:#FA1800;
 }
 
-.stockdispo {
-    transition: color 1s;
-}
-
 .containerform {
     width: 100%;
     padding-right: 22.5%;

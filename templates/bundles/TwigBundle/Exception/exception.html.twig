@@ -1,6 +1,39 @@
-{% extends 'base.html.twig' %}
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>{% block title %}{{'title.homepage'|trans }}{% endblock %}</title>
+    {% block stylesheets %}
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ asset('jqueryUI/1.12.1/jquery-ui.css') }}" />
+        <link rel="stylesheet" href="{{ asset('jqueryUI/1.12.1/jquery-ui.structure.css') }}" />
+        <link rel="stylesheet" href="{{ asset('jqueryUI/1.12.1/jquery-ui.theme.css') }}" />
+        <link rel="stylesheet" href="{{ asset('styleperso/style.css') }}" />
+    {% endblock %}
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img class="logo" src="/images/logo.png" alt="logo" />
+        </a>
+    </div>
+
+</nav>
 
 {% block body %}
+
+
     <section id="errorpage">
         <div class="inner" >
 
@@ -10,8 +43,8 @@
         </div>
 
         <h3>
-            {{ 'exception.error'|trans }} <br/><br/>
-            <a href="{{ path('louvre') }}"><button style="width: 100%;background-color: #FA1800;" type="button" id="retour" class="btn btn-danger">{{ 'exception.accueil'|trans }}</button></a>
+            Oops the page you are asking for does not exist! <br/><br/>
+            <a href="{{ path('louvre') }}"><button style="width: 100%;background-color: #FA1800;" type="button" id="retour" class="btn btn-danger">Back to Home</button></a>
 
         </h3>
 
