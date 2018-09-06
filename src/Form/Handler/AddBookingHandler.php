@@ -3,7 +3,7 @@
 namespace App\Form\Handler;
 
 use App\services\VerifDateBooking;
-use App\services\VerifDateVisit;
+use App\services\VerifDateVisitHour;
 use App\services\VerifStock;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Form\FormInterface;
@@ -13,7 +13,7 @@ use Symfony\Component\Translation\TranslatorInterface;
 class AddBookingHandler
 {
 	/**
-	 * @var VerifDateVisit
+	 * @var VerifDateVisitHour
 	 */
 	private $verifdatevisit;
 	/**
@@ -34,7 +34,7 @@ class AddBookingHandler
 	private $entityManager;
 
 	public function __construct(
-		VerifDateVisit $verifDateVisit,
+		VerifDateVisitHour $verifDateVisit,
 		VerifDateBooking $verifDateBooking,
 		VerifStock $verifStock,
 		SessionInterface $session,
@@ -51,7 +51,7 @@ class AddBookingHandler
 	{
 		if ($formbooking->isSubmitted() && $formbooking->isValid()) {
 			$booking = $formbooking->getData();
-			if ($this->verifdatevisit->ValidDate($booking->getDateVisit(),$booking)) {
+			if ($this->verifdatevisit->ValidDateHour($booking->getDateVisit(),$booking)) {
 				if ($this->verifdatebooking->ValidDate($booking->getDateBooking())) {
 					if ($this->verifstock->ValidStock($booking->getDateVisit())){
 						$this->entityManager->persist( $booking);
@@ -64,7 +64,7 @@ class AddBookingHandler
 					$this->session->getFlashBag()->add('message', $translator->trans('error.booking.date'));
 				}
 			} else {
-				$this->session->getFlashBag()->add('message', $translator->trans('error.booking.close'));
+				$this->session->getFlashBag()->add('message', $translator->trans('error.booking.hour'));
 			}
 		}
 		return false;

@@ -157,9 +157,9 @@
                 <source>error.booking.date</source>
                 <target>Sorry, you can not order today! (Tuesday, Sunday and holidays)</target>
             </trans-unit>
-            <trans-unit id="error.booking.close">
-                <source>error.booking.close</source>
-                <target>We are sorry, the Louvre is closed on the selected day (Tuesday and holidays).</target>
+            <trans-unit id="error.booking.hour">
+                <source>error.booking.hour</source>
+                <target>Can not order a day ticket after 14pm</target>
             </trans-unit>
             <trans-unit id="booking.info1">
                 <source>booking.info1</source>
@@ -327,11 +327,11 @@
             </trans-unit>
             <trans-unit id="type.jour">
                 <source>type.jour</source>
-                <target>Journée</target>
+                <target>Day</target>
             </trans-unit>
             <trans-unit id="type.djour">
                 <source>type.djour</source>
-                <target>Demi-journée</target>
+                <target>Half day</target>
             </trans-unit>
             <trans-unit id="heure.jour">
                 <source>heure.jour</source>

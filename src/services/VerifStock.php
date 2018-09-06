@@ -15,7 +15,6 @@ class VerifStock  {
 	$this->em = $em;
     }
 
-
 //Impossible de commander si le nb de billets pour le jour même est >1000
 	public function ValidStock($dateVisit){
 

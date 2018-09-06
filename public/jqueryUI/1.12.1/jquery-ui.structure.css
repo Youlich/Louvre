@@ -382,6 +382,8 @@ button.ui-button::-moz-focus-inner {
 	text-align: center;
 	font-weight: bold;
 	border: 0;
+	color:#4e555b;
+
 }
 .ui-datepicker td {
 	border: 0;

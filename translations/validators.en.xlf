@@ -35,6 +35,14 @@
                 <source>birthday.not_blank</source>
                 <target>The date of birth of the visitor is obligatory</target>
             </trans-unit>
+            <trans-unit id="error.booking.close">
+                <source>error.booking.close</source>
+                <target>We are sorry, the Louvre is closed on the selected day (Tuesday and holidays).</target>
+            </trans-unit>
+            <trans-unit id="error.booking.passed">
+                <source>error.booking.passed</source>
+                <target>Can not order for days gone!</target>
+            </trans-unit>
 
         </body>
     </file>
