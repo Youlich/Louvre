@@ -63,9 +63,9 @@ class TypeVisit
 	public function getTypeTranslationKey()
 	{
 		if ($this->getType() == 'Journée') {
-			return 'typeVisit.type.day';
+			return 'typeVisit.type.days';
 		}
-		return 'typeVisit.type.halfday';
+		return 'typeVisit.type.halfdays';
 	}
 
 

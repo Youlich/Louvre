@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use App\Validator\Constraints\DateVisit;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -26,6 +27,7 @@ class Booking {
 
 	/**
 	 * @ORM\Column(type="date")
+     * @DateVisit(message="booking.blank.nbTicket")
 	 */
 	private $dateVisit;
 

@@ -72,6 +72,7 @@ class BookingType extends AbstractType
             'data_class' => Booking::class,
             'translation_domain' => 'forms',
             'translator' => null,
+            'prenom' => 'saysa',
         ]);
     }
 }

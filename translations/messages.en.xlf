@@ -327,7 +327,7 @@
             </trans-unit>
             <trans-unit id="type.jour">
                 <source>type.jour</source>
-                <target>Journée</target>
+                <target>Day</target>
             </trans-unit>
             <trans-unit id="type.djour">
                 <source>type.djour</source>
