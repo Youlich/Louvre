@@ -155,10 +155,9 @@ input[type="radio"]:focus + label:before {
     padding-left: 0;
 }
 
-
-@media (max-width: 414px) {
+@media (max-width: 1280px) {
     .containerform {
-        max-width: 540px;
+        max-width: 1280px;
     }
     .btnlangue {
         width:50px;
@@ -166,26 +165,18 @@ input[type="radio"]:focus + label:before {
         padding:0px;
     }
 }
+
 
 @media (min-width: 576px) {
     .containerform {
         max-width: 540px;
     }
-    .btnlangue {
-        width:50px;
-        font-size:x-small;
-        padding:0px;
-    }
+
 }
 
 @media (min-width: 768px) {
     .containerform {
         max-width: 720px;
-    }
-    .btnlangue {
-        width:50px;
-        font-size:x-small;
-        padding:0px;
     }
 
 }

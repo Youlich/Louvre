@@ -140,9 +140,10 @@ $("#typeVisite").on('change', function () {
         });
     }
 });
-/*
+
 //Impossible de commander si le jour de la commande est un dimanche, un mardi ou un jour férié (1er mai, 1er novembre ou 25 décembre).
 $('#message').css('visibility', 'hidden');
+
 if(dateNow.getDay() === 0 || dateNow.getDay() === 2 || dateNow.getDate() === 1 && dateNow.getMonth() === 11 || dateNow.getDate() === 1 && dateNow.getMonth() === 5 || dateNow.getDate() === 25 && dateNow.getMonth() === 12  ) {
     $(function() {
         $('#containerform').css('visibility', 'hidden');
@@ -150,7 +151,7 @@ if(dateNow.getDay() === 0 || dateNow.getDay() === 2 || dateNow.getDate() === 1 &
         $('#message').css('visibility', 'visible');
     });
 }
-*/
+
 //Message d'erreur si le stock disponible = 0
 var Stock = $('#dialogStock');
 Stock.css('visibility', 'hidden');
