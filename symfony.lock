@@ -86,8 +86,20 @@
     "fortawesome/font-awesome": {
         "version": "v4.7.0"
     },
+    "guzzlehttp/guzzle": {
+        "version": "6.3.3"
+    },
+    "guzzlehttp/promises": {
+        "version": "v1.3.1"
+    },
+    "guzzlehttp/psr7": {
+        "version": "1.4.2"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
+    },
+    "mailjet/mailjet-apiv3-php": {
+        "version": "v1.3.0"
     },
     "nikic/php-parser": {
         "version": "v4.0.2"
@@ -98,11 +110,17 @@
     "ocramius/proxy-manager": {
         "version": "2.2.0"
     },
+    "phpmailer/phpmailer": {
+        "version": "v6.0.5"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
     "psr/container": {
         "version": "1.0.0"
+    },
+    "psr/http-message": {
+        "version": "1.0.1"
     },
     "psr/log": {
         "version": "1.0.2"

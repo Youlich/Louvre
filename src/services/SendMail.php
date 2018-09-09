@@ -4,23 +4,24 @@ namespace App\services;
 
 use Symfony\Component\Translation\TranslatorInterface;
 
+
 class SendMail  extends \Twig_Extension {
 
 	private $mailer;
 	private $twig;
 
-	public function __construct(\Swift_Mailer $mailer, \Twig_Environment $twig)
+
+	public function __construct(\Swift_Mailer $mailer, \Twig_Environment $twig )
 	{
 		$this->mailer = $mailer;
 		$this->twig = $twig;
-
 	}
 
 	public function sendMail($booking, TranslatorInterface $translator) {
 		$typeVisit = $booking->getTypeVisit();
 		$message = (new \Swift_Message($translator->trans('mail.title')))
 			->setSubject($translator->trans('mail.subject'))
-			->setFrom('ju.tatibouet@gmail.com')
+			->setFrom('billetteriemuseedulouvre@gmail.com')
 			->setTo($booking->getEmail())
 			->setBody(
 				$this->twig->render(
@@ -33,4 +34,5 @@ class SendMail  extends \Twig_Extension {
 			);
 		$this->mailer->send($message);
 	}
+
 }
