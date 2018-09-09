@@ -110,9 +110,6 @@
     "ocramius/proxy-manager": {
         "version": "2.2.0"
     },
-    "phpmailer/phpmailer": {
-        "version": "v6.0.5"
-    },
     "psr/cache": {
         "version": "1.0.1"
     },

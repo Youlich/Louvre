@@ -11,9 +11,6 @@ parameters:
     stockticket: '1000'
     keystripe: 'sk_test_r8bvP1zBl3DUvlKjtJ3iUX0j'
     holidays: ['01/05','01/11','25/12']
-    mailer_host: 'smtp.gmail.com'
-    mailer_user: 'billetteriemuseedulouvre@gmail.com'
-    mailer_password: 'Soleil123!'
 
 services:
     # default configuration for services in *this* file
