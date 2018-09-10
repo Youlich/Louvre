@@ -33,7 +33,7 @@ class LouvreController extends Controller {
 	/**
 	 * @Route("/booking/{_locale}", defaults={"_locale": "fr"}, requirements={"_locale": "en|fr"}, name="booking")
 	 */
-	public function addBooking( Request $request, AddBookingHandler $addBookingHandler, VerifStock $verifstock,TranslatorInterface $translator) {
+	public function addBooking( Request $request, AddBookingHandler $addBookingHandler, TranslatorInterface $translator) {
 
 		$booking = new Booking();
 

@@ -11,6 +11,8 @@ parameters:
     stockticket: '1000'
     keystripe: 'sk_test_r8bvP1zBl3DUvlKjtJ3iUX0j'
     holidays: ['01/05','01/11','25/12']
+    closingbookingdays: ['0','2']
+
 
 services:
     # default configuration for services in *this* file
@@ -50,7 +52,11 @@ services:
     App\services\VerifDateBooking:
         arguments:
             $holidays: '%holidays%'
+            $closingbookingdays: '%closingbookingdays%'
 
+    App\services\VerifDateVisit:
+        arguments:
+            $holidays: '%holidays%'
 
     App\EventSubscriber\LocaleSubscriber:
         arguments: ['%kernel.default_locale%']

@@ -157,6 +157,10 @@
                 <source>error.booking.date</source>
                 <target>Sorry, you can not order today! (Tuesday, Sunday and holidays)</target>
             </trans-unit>
+            <trans-unit id="error.dateVisit.date">
+                <source>error.dateVisit.date</source>
+                <target>Sorry, you can not visit the Louvre on these dates! (Tuesday and holidays)</target>
+            </trans-unit>
             <trans-unit id="error.booking.hour">
                 <source>error.booking.hour</source>
                 <target>Can not order a day ticket after 14pm</target>

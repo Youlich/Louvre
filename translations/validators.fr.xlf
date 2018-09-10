@@ -37,10 +37,6 @@
                 <source>birthday.not_blank</source>
                 <target>La date de naissance du visiteur est obligatoire</target>
             </trans-unit>
-            <trans-unit id="error.booking.close">
-                <source>error.booking.close</source>
-                <target>Nous sommes désolés, le Louvre est fermé le jour sélectionné (mardi et jours fériés).</target>
-            </trans-unit>
             <trans-unit id="error.booking.passed">
                 <source>error.booking.passed</source>
                 <target>Impossible de commander pour des jours passés !</target>

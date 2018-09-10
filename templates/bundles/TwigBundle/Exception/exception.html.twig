@@ -34,19 +34,19 @@
 {% block body %}
 
 
-    <section id="errorpage">
-        <div class="inner" >
+<section id="errorpage">
+    <div class="inner" >
 
-            <h2 class="exception-http">
-                HTTP {{ status_code }} <small>{{ status_text }}</small>
-            </h2>
-        </div>
+        <h2 class="exception-http">
+            HTTP {{ status_code }} <small>{{ status_text }}</small>
+        </h2>
+    </div>
 
-        <h3>
-            Oops the page you are asking for does not exist! <br/><br/>
-            <a href="{{ path('louvre') }}"><button style="width: 100%;background-color: #FA1800;" type="button" id="retour" class="btn btn-danger">Back to Home</button></a>
+    <h3>
+        Oops the page you are asking for does not exist! <br/><br/>
+        <a href="{{ path('louvre') }}"><button style="width: 100%;background-color: #FA1800;" type="button" id="retour" class="btn btn-danger">Back to Home</button></a>
 
-        </h3>
+    </h3>
 
-    </section>
+</section>
 {% endblock %}

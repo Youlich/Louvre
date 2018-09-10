@@ -5,7 +5,6 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
 use Symfony\Component\Validator\Constraints as Assert;
-use App\Validator\Constraints\Holidays;
 use App\Validator\Constraints\PassedDays;
 
 
@@ -28,7 +27,6 @@ class Booking {
 
 	/**
 	 * @ORM\Column(type="date")
-	 * @Holidays(message="error.booking.close")
 	 * @PassedDays(message="error.booking.passed")
 	 */
 	private $dateVisit;
