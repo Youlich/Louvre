@@ -153,10 +153,6 @@
                 <source>title.booking</source>
                 <target>Ma commande de billets</target>
             </trans-unit>
-            <trans-unit id="error.booking.date">
-                <source>error.booking.date</source>
-                <target>Nous sommes désolés, vous ne pouvez pas commander aujourd'hui ! (mardi, dimanche et jours fériés)</target>
-            </trans-unit>
             <trans-unit id="error.dateVisit.date">
                 <source>error.dateVisit.date</source>
                 <target>Nous sommes désolés, vous ne pouvez pas visiter le Louvre à ces dates ! (mardi et jours fériés)</target>

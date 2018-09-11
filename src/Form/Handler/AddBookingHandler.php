@@ -1,6 +1,6 @@
 <?php
 namespace App\Form\Handler;
-use App\services\VerifDateBooking;
+
 use App\services\VerifDateVisit;
 use App\services\VerifDateVisitHour;
 use App\services\VerifStock;
@@ -20,10 +20,6 @@ class AddBookingHandler
 	 */
 	private $verifDateVisitHour;
 	/**
-	 * @var VerifDateBooking
-	 */
-	private $verifdatebooking;
-	/**
 	 * @var VerifStock
 	 */
 	private $verifstock;
@@ -38,14 +34,12 @@ class AddBookingHandler
 	public function __construct(
 		VerifDateVisitHour $verifDateVisitHour,
 		VerifDateVisit $verifdatevisit,
-		VerifDateBooking $verifDateBooking,
 		VerifStock $verifStock,
 		SessionInterface $session,
 		EntityManagerInterface $entityManager)
 	{
 		$this->verifdatevisithour = $verifDateVisitHour;
 		$this->verifdatevisit = $verifdatevisit;
-		$this->verifdatebooking = $verifDateBooking;
 		$this->verifstock = $verifStock;
 		$this->session = $session;
 		$this->entityManager = $entityManager;
@@ -55,7 +49,6 @@ class AddBookingHandler
 		if ($formbooking->isSubmitted() && $formbooking->isValid()) {
 			$booking = $formbooking->getData();
 			if ($this->verifdatevisithour->ValidDateHour($booking->getDateVisit(),$booking)) {
-				if ($this->verifdatebooking->ValidDate($booking->getDateBooking())) {
                     if ($this->verifdatevisit->ValidDate($booking->getDateVisit())) {
 					if ( $this->verifstock->ValidStock( $booking->getDateVisit() ) ) {
 						$this->entityManager->persist( $booking );
@@ -68,9 +61,7 @@ class AddBookingHandler
 				}else {
 	                    $this->session->getFlashBag()->add('message', $translator->trans('error.dateVisit.date'));
 				}
-				} else {
-					$this->session->getFlashBag()->add('message', $translator->trans('error.booking.date'));
-				}
+
 			} else {
 				$this->session->getFlashBag()->add('message', $translator->trans('error.booking.hour'));
 			}

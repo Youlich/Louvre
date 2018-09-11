@@ -19,7 +19,9 @@ class SendMail  extends \Twig_Extension {
 
 	public function sendMail($booking, TranslatorInterface $translator) {
 		$typeVisit = $booking->getTypeVisit();
-		$message = (new \Swift_Message($translator->trans('mail.title')))
+		$message = new \Swift_Message($translator->trans('mail.title'));
+
+        $message
 			->setSubject($translator->trans('mail.subject'))
 			->setFrom('billetteriemuseedulouvre@gmail.com')
 			->setTo($booking->getEmail())
@@ -32,6 +34,7 @@ class SendMail  extends \Twig_Extension {
 				),
 				'text/html'
 			);
+
 		$this->mailer->send($message);
 	}
 

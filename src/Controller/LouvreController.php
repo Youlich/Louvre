@@ -7,7 +7,6 @@ use App\Form\Handler\AddBookingHandler;
 use App\Form\BookingType;
 use App\services\SendMail;
 use App\services\PaymentCB;
-use App\services\VerifStock;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;

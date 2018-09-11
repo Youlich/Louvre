@@ -35,8 +35,8 @@ function DisableDay(date){
     var day = date.getDay();
     var jour = date.getDate();
     var month = date.getMonth()+1;
-    // jour 2 = mardi
-    if (day == 2) {
+    // mardi et dimanche 0 et 2
+    if (day == 2 | day == 0){
         return [false] ;
     } else if (jour == 1 && month == 5 || jour == 1 && month == 11 || jour == 25 && month == 12 ) {
         return [false] ;
@@ -140,17 +140,6 @@ $("#typeVisite").on('change', function () {
         });
     }
 });
-
-//Impossible de commander si le jour de la commande est un dimanche, un mardi ou un jour férié (1er mai, 1er novembre ou 25 décembre).
-$('#message').css('visibility', 'hidden');
-
-if(dateNow.getDay() === 0 || dateNow.getDay() === 2 || dateNow.getDate() === 1 && dateNow.getMonth() === 11 || dateNow.getDate() === 1 && dateNow.getMonth() === 5 || dateNow.getDate() === 25 && dateNow.getMonth() === 12  ) {
-    $(function() {
-        $('#containerform').css('visibility', 'hidden');
-        $('#panier').css('visibility', 'hidden');
-        $('#message').css('visibility', 'visible');
-    });
-}
 
 //Message d'erreur si le stock disponible = 0
 var Stock = $('#dialogStock');
