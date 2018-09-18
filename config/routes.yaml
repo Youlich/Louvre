@@ -1,3 +1,4 @@
 #index:
 #    path: /
-#    controller: App\Controller\DefaultController::index
+#    controller: App\Controller\LouvreController::index
+# ce fichier n'est pas utilisé car j'utilise les annotations dans mon controller
